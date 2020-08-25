@@ -62,9 +62,9 @@ void swap3(int x,int y )
 //instead of int????*/
 void swap4(int x,int y)
 {
-    x=x*1.0/y;
-    y=x*y*1.0;
-    x=y/x*1.0;
+    x=x*y;
+    y=x/y;
+    x=x/y;
     printf("After Swapping: x = %d, y = %d\n",x,y);
 }
 
