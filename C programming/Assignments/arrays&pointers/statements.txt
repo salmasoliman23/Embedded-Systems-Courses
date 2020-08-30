@@ -1,0 +1,32 @@
+1) pointer to int: 
+int *ptr;
+2) pointer to pointer to int:
+ int **ptr;
+3) pointer to array of 10 elements of int: 
+ int (*ptr)[10]
+4) pointer to function which take 2 int and return void:
+ void (*ptr)(int,int)
+5) array of 20 pointer to int:
+ int *ptr[20]
+6) array of 10 pointer to function:
+ void *[10]()
+7) pointer to const int:
+const int*ptr or int const *ptr
+8) pointer to const pointer:
+ int *const *ptr
+
+-------------------------------------------------
+write only the prototype of the function:
+=========================================
+1) Function that take 2 dimensional array and return the address of 1 dimensional array: 
+int* func(int [][]);
+
+
+2)Function that take two variables and return the biggest one:
+int func(int*,int*);
+
+
+3) Call back function that take pointer to long and pointer to function (the function return pointer to integer and take char):
+
+void func (long*,( int* (*ptr(char) ) );
+
